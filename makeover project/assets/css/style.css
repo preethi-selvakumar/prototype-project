@@ -478,6 +478,15 @@ html, body {
     text-transform: uppercase;
 }
 
+.service-box a {
+    text-decoration: none;
+}
+
+.service-box a:hover {
+    text-decoration: underline;
+    color: #ced10e;
+}
+
 /* Booking Policy */
 .booking-policy {
     background-color: #FCD2EB;
@@ -749,7 +758,6 @@ footer {
 /* Centered Appointment Button  */
 .btn-appointment-hairstyle, .btn-appointment-beautycare {
     background-color: #E72E77;
-    color: white;
     font-size: 1.2rem;
     border: none;
     border-radius: 3px;
@@ -768,6 +776,11 @@ footer {
 
 .btn-appointment-hairstyle:hover, .btn-appointment-beautycare:hover {
     background-color: #4B2142;
+}
+
+.btn-appointment-hairstyle a, .btn-appointment-beautycare a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Beauty Care Page Banner */
@@ -1025,7 +1038,6 @@ textarea {
     width: 276px;
     height: 67px;
     background-color: #911717;
-    color: white;
     border: none;
     padding: 15px 20px;
     border-radius: 20px;
@@ -1038,5 +1050,10 @@ textarea {
 /* Button Hover Effect */
 .button-container button:hover {
     background-color: skyblue;
+}
+
+.button-container button a {
+    text-decoration: none;
+    color: white;
 }
 
